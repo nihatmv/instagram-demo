@@ -1,0 +1,263 @@
+.instagram-logo {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  cursor: pointer;
+  transition: transform 0.3s; 
+}
+.instagram-logo:hover {
+  transform: scale(1.2);
+  background-color: gray;
+  width: 100px;
+}
+.home-logo {
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: transform 0.3s; 
+}
+.home-logo:hover {
+  transform: scale(1.2);
+}
+.search-icon {
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: transform 0.3s; 
+
+}
+.search-icon:hover {
+  transform: scale(1.2);
+
+}
+.explore-icon {
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: transform 0.3s; 
+}
+.explore-icon:hover {
+  transform: scale(1.2);
+}
+.reels-icon {
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: transform 0.3s; 
+}
+.reels-icon:hover {
+  transform: scale(1.2);
+}
+.dm-icon {
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: transform 0.3s; 
+}
+.dm-icon:hover {
+  transform: scale(1.2);
+}
+.notifications-icon {
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: transform 0.3s; 
+}
+.notifications-icon:hover {
+  transform: scale(1.2);
+}
+.create-icon {
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: transform 0.3s; 
+}
+.create-icon:hover {
+  transform: scale(1.2);
+}
+.xpdipgo {
+  cursor: pointer;
+  width: 25px;
+  border-radius: 40px;
+  margin-bottom: 120px;
+  transition: transform 0.3s; 
+}
+.xpdipgo:hover {
+  transform: scale(1.2);
+}
+.more-icon {
+  transition: transform 0.3s;
+  cursor: pointer;
+  
+}
+.more-icon:hover {
+  transform: scale(1.2);
+  
+}
+.explore-sidebar {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 499px;
+  transition: transform 0.8s ease; 
+  transform: translateX(-500px); 
+  /* transform: translateX(0); */
+
+}
+.explore-sidebar.visible {
+  transform: translateX(0);
+}
+  
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 70px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(190, 190, 190);
+}
+.top-part {
+  display: flex;
+}
+.stories {
+  display: flex;
+  margin-left: 150px;
+  margin-top: 67px;
+  width: 850px;
+  justify-content: space-between;
+}
+
+.story-1 {
+  width: 50px;
+  height: 50px;
+  border: solid;
+  border-radius: 50px;
+  border-color: #F35369;
+  cursor: pointer;
+}
+.story-2 {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: solid;
+  border-radius: 50px;
+  border-color: #F35369;
+}
+.story-3 {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: solid;
+  border-radius: 50px;
+  border-color: #F35369;
+}
+.story-4 {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border: solid;
+  border-radius: 50px;
+  border-color: #F35369;
+}
+.story-5 {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border: solid;
+  border-radius: 50px;
+  border-color: #F35369;
+}
+.story-6 {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border: solid;
+  border-radius: 50px;
+  border-color: #F35369;
+}
+.story-7 {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border: solid;
+  border-radius: 50px;
+  border-color: #F35369;
+}
+.story-8 {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border: solid;
+  border-radius: 50px;
+  border-color: #F35369;
+}
+
+.info-part {
+  display: flex;
+  align-items: center;
+  width: 557px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.left-info-part {
+  margin-right: 14px;
+}
+.middle-info-part {
+  margin-right: 100px;
+}
+.profile-picture {
+  height: 45px;
+  width: 45px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.switch-button {
+  border: none;
+  color: #0095f6;
+  background-color: white;
+}
+
+
+.main-part {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.top-of-first-publication {
+  display: flex;
+  align-items: center;
+}
+.bottom-of-first-publication-line1 {
+  display: flex;
+}
+.like-button {
+  margin-right: 15px;
+}
+.comment-button {
+  margin-right: 15px;
+}
+.share-button {
+  margin-right: 377px;
+}
+.last-part {
+  display: flex;
+  align-items: center;
+}
+
+.main-right-part {
+  margin-left: 44px;
+}
+.first-line {
+  display: flex;
+}
+
+.first-profile-explore {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.first-profile-explore:hover {
+  background-color: rgb(241, 241, 241);
+  
+}
