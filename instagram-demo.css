@@ -6,8 +6,7 @@
 }
 .instagram-logo:hover {
   transform: scale(1.2);
-  background-color: gray;
-  width: 100px;
+  
 }
 .home-logo {
   margin-bottom: 30px;
